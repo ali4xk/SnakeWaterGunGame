@@ -9,6 +9,8 @@ youDict = {
     "s" : 1, "w": -1, "g":0 
 }
 you = youDict[youstr]
+if computer == you:
+    print("Its a Draw")
 if computer == -1 and you == 1:
     print("You win")
 elif computer == -1 and you == 1:
